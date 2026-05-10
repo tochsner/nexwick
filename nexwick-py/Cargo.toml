@@ -1,0 +1,19 @@
+[package]
+name = "nexwick-py"
+version = "0.1.1"
+authors = ["Jonathan Klawitter"]
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Parser for Nexus files and Newick strings using Python"
+homepage = "https://github.com/joklawitter/nexwick/"
+repository = "https://github.com/joklawitter/nexwick/"
+keywords = ["parser", "Nexus", "Newick", "Phylogenetic"]
+categories = ["parser-implementations", "science::bioinformatics"]
+
+[lib]
+name = "nexwick_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+nexwick = { path = "../nexwick" }
+pyo3 = { version = "0.28.3", features = ["extension-module"] }
