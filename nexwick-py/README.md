@@ -1,6 +1,9 @@
 # nexwick-py
 
-This crate contains the `PyO3` bindings for nexwick. So far, only `nexwick_py.parse_nexus_file` and the needed structs are implemented.
+This crate contains the `PyO3` bindings for nexwick. So far, teh following has been implemented:
+
+- Bindings for `nexwick_py.parse_nexus_file` and the needed structs.
+- Type stubs in `nexwick_py.pyi`.
 
 ## How to build the python package
 
