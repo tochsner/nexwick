@@ -1,6 +1,6 @@
 # nexwick-py
 
-This crate contains the `PyO3` bindings for nexwick. So far, teh following has been implemented:
+This crate contains the `PyO3` bindings for nexwick. So far, the following has been implemented:
 
 - Bindings for `nexwick_py.parse_nexus_file` and the needed structs.
 - Type stubs in `nexwick_py.pyi`.
@@ -15,7 +15,7 @@ This crate contains the `PyO3` bindings for nexwick. So far, teh following has b
 ## How to use this package locally in another (uv) project
 
 1. Navigate into the project where you want to use nexwick.
-2. Install nexwick with `uv add /Users/ochsneto/Documents/Tools/nexwick/nexwick-py`.
+2. Install nexwick with `uv add <path to this nexwick-py directory>`.
 3. Try it out:
     ```python
     import nexwick_py
